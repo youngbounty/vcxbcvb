@@ -1,0 +1,595 @@
+* {  -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+html {
+    font-family: 'Dela Gothic One';
+}
+#wrapper {
+    
+    margin: 0;
+    width: 100%;
+    
+    }
+    header {
+    background-color: rgb(0, 0, 0);
+    max-width: 100%;
+    height: 20%;
+   stroke: aqua;
+   border-top: 7px solid red;
+   
+ 
+    
+    }
+    div {
+        max-width: 100%;
+    }
+    .navbar {
+        width: 100%;
+        margin: auto;
+        
+    }
+    .navbar-nav {
+        
+    }
+    .navbar-nav a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        font-size: 25px;
+    }
+    .navbar-nav a:hover {
+        color: red;
+        scale: 110%; 
+        transition: all 0.2s ease-in-out;
+        
+    }
+    .navbar-item {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        
+    }
+    .navbar-link {
+        height: 150px;
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    img.lg {
+        padding-left: 10px;   
+        border-right: 7px solid red;   
+        margin-right: 10px; 
+    }
+    .navbar-menu {
+        
+        margin: auto;
+        height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 7px solid red;
+    
+    }
+    .navbar-item2 {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        border-right: 7px solid red; 
+         
+        
+        
+    }
+    #qwas {
+        height: 50%;
+        width: 30%;
+        display: none;
+    }
+    .line {
+        border-color: red;
+        background-color: red;
+        width: 0.5%;
+       height: 154px;
+    margin-right: 50px;
+    border-width: 4px;
+    }
+    .by {
+        margin-left: 50px;
+        height: 90%;
+        width: 105%;
+       
+        padding: 0px;
+    }
+    .by:hover {
+        filter: drop-shadow(0px 10px red);
+        transition: 0.3s ease-in-out;
+        color: red;
+        scale: 105%; 
+        transition: all 0.2s ease-in-out;
+    }
+    .navbar-text {
+        text-decoration: none;
+        background-color: rgb(255, 255, 255);
+        font-family: 'Dela Gothic One';
+        width: 250px;
+        height: 50px;
+        border-radius: 20px;
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        font-size: 25px;
+        text-decoration: black;
+    }
+   .navbar-text:hover {
+    filter: drop-shadow(0px 10px red);
+    transition: 0.3s ease-in-out;
+    color: red;
+    scale: 105%; 
+    transition: all 0.2s ease-in-out;
+    
+   }
+   .navbar-item:hover {
+    filter: drop-shadow(0px 10px red);
+    transition: 0.3s ease-in-out;
+    color: red;
+    scale: 105%; 
+    transition: all 0.2s ease-in-out;
+    
+   }
+  .navbar-text  {
+    font-size:25px;
+   border: 3px solid red;
+   
+    }
+
+    .podval {
+        color: rgb(255, 7, 7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    footer {
+        background-color: black;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+       margin-top: 5%;
+        border-bottom: 7px solid red;
+        border-top: 7px solid red;
+    }
+    .r1 {
+        margin-left: 2%;
+        margin-top: 15px;
+        width: 90%;
+        border-radius: 60px;
+        justify-content: center;
+        align-items: center;
+        border-width: 10px;
+        border-style: solid;
+        border-color: black;
+        
+    }
+    .r1:hover {
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+        
+        border-color: rgb(255, 0, 0);
+        border-bottom: 30px solid rgb(255, 0, 0);
+        transition: all 0.2s ease-in-out;
+    }
+    .rabsp {
+        list-style: none;
+    }
+   .rab {
+    display: flex;
+    
+   }
+   .container h1 {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.1px #ff0000;
+    
+    
+    text-align: center;
+   }
+  
+   .r2 {
+    margin-left: 2%;
+        margin-top: 50px;
+        width: 90%;
+        border-radius: 60px;
+        justify-content: center;
+        align-items: center;
+        border-width: 10px;
+        border-style: solid;
+        border-color: black;
+   }
+   .r2:hover {
+    width: 95%;
+        justify-content: center;
+        align-items: center;
+        
+        border-color: rgb(255, 0, 0);
+        border-bottom: 30px solid rgb(255, 0, 0);
+        transition: all 0.2s ease-in-out;
+   }
+   .container2 h1 {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    
+    -webkit-text-stroke: 0.1px #ff0000;
+    
+    
+    text-align: center;
+   }
+   
+   .container3 h1 {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.1px #ff0000;
+    
+    
+    text-align: center;
+   }
+   .container4 h1 {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.1px #ff0000;
+    
+    
+    text-align: center;
+   }
+   body {
+    background: radial-gradient(circle at 100%, #000000, #333 50%, #5e0000 75%, #333 75%);
+      background-size: 1000%;
+      animation: background 2s linear alternate infinite;
+      margin: 0;
+    max-width: 1920px;
+    }
+    
+    @keyframes background {
+      from {
+        background-position: 0 0;
+      }
+      to {
+        background-position: 100% 0;
+      }
+    }
+    html {
+        scroll-behavior: smooth;
+      }
+      
+      .formitext {
+        text-transform: initial;
+        font-style: normal;
+        margin-left: 30px;
+    } 
+    .tabletka {
+        width: 400px;
+        height: 60px;
+        margin-bottom: 10px;
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .tabletka2 {
+        width: 400px;
+        height: 90px;
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .tabletka3 {
+        width: 400px;
+        height: 45px;
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    i {
+        color: rgb(255, 255, 255);
+        
+    }
+    .knopka{
+        background-color: rgb(255, 0, 0);
+        border-radius: 35px;
+        color: white;
+        font-style: italic;
+        width: 150px;
+        height: 50px;
+        text-transform: uppercase;
+        margin-top: 10px;
+        margin-left: 45%;
+        position: relative;
+        margin-bottom: 10px;
+        
+    }
+    form {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 65px;
+    }
+    form2 {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 60px;
+        
+    }
+    .knopka:hover {
+        background: rgba(0,0,0,0);
+	color: rgb(255, 0, 0);
+	box-shadow: inset 0 0 0 3px #ff0000;
+    }
+    .los {
+        width: 25%;
+        margin-left: 38%;
+        margin-top: 2%;
+        
+    }
+    #circle {
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 250px;
+        background: 0;
+        border: 7px solid rgb(255, 0, 0);
+       margin-left: 38.5%;
+       margin-top: 9%;
+      }
+      #circle2 {
+        position: absolute;
+        width: 320px;
+        height: 320px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 250px;
+        background: 0;
+        border: 7px solid rgb(0, 0, 0);
+       margin-left: 39.5%;
+       margin-top: 10%;
+      }
+      #circle3 {
+        position: absolute;
+        width: 380px;
+        height: 380px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 250px;
+        background: 0;
+        border: 7px solid rgb(255, 255, 255);
+       margin-left: 37.5%;
+       margin-top: 8%;
+      }
+      #rectangle {
+position: absolute;
+filter: drop-shadow(0px 30px 30px white);
+        width: 90%;
+        margin-left: 4.5%;
+        margin-top: 5%;
+        height: 250px;
+        background: #f84949;
+        border: 7px solid black;
+    }
+  
+   .container h1 {
+    position: relative;
+   }
+   .container {
+    margin-top: 15%;
+   }
+   .inner_bl_5 .bls {
+       height: 762px;
+    display: flex;
+    width: 75%;
+    overflow: hidden;
+    background-color: #ff0000;
+    margin-left: 12.2%;
+}
+.container4 p {
+    font-size: 50px;
+    position: relative;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+    margin-top: 10%;
+    background-color: red;
+    
+}
+.obomne {
+    
+}
+.bls p {
+   font-size: 40px;
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 1%;
+}
+
+.knopka2{
+    background-color: rgb(0, 0, 0);
+    border-radius: 35px;
+    color: rgb(255, 0, 0);
+    font-style: italic;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 45%;
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 18px;
+    
+}
+.knopka2:hover {
+    background: rgba(0,0,0,0);
+color: rgb(0, 0, 0);
+box-shadow: inset 0 0 0 3px #000000;
+}
+
+.form_item2 {
+   position: absolute;
+   width: 0%;
+   margin-top: 30%;
+   margin-left: 7.5%;
+  
+}
+.imaga {
+    width: 40%;
+    overflow: hidden;
+    position: absolute;
+        
+    margin-left: 28.7%;
+    filter: invert();
+}
+.wrapper2 {
+    margin-left: 25%;
+    overflow: hidden;
+    
+    
+  }
+  .exmpl {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .exmpl img {
+    height: 100%;
+    margin-left: 105px;
+    width: 900px;
+    filter: invert();
+  }
+
+.card {
+    width: 70%;
+    padding: 30px 90px 90px 90px;
+    border: 6px solid rgb(255, 0, 0);
+   
+    border-radius: 50px;
+    position: relative;
+  }
+  
+ 
+  
+  .card .row {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid: auto / auto auto;
+    grid-template-columns: repeat(auto-fit,minmax(40%, 1fr));
+    grid-gap: 30px;
+  }
+  
+  .card .row .col {
+    position: relative;
+    width: 100%;
+    margin: 30px 20px 40px 0;
+    transition: 0.5s;
+  }
+  
+  .card .row .form-group {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: #ff0000;
+  }
+  
+  .card .row .form-group input,
+  .card .row .form-group textarea {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    font-size: 24px;
+    padding: 10px 0 10px 20px;
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 0 rgb(0, 0, 0);
+    color: #ff0000;
+    border-radius: 50px;
+  }
+  
+  .card .row .form-group label {
+    line-height: 40px;
+    color: #ff0000;
+    font-size: 24px;
+    margin: 0 0 0 30px;
+    display: block;
+    pointer-events: none;
+  }
+  
+  .row .col:nth-child(6) {
+    margin-top: 64px;
+  }
+  
+  .card .row .form-group input:focus,
+  .card .row .form-group textarea:focus {
+    border: 5px solid #ff0000;
+    transition: all 0.5s;
+  }
+  
+  .card .row input[type="submit"] {
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 0 rgb(0, 0, 0);
+    padding: 10px;
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+    text-transform: uppercase;
+    color: #ff0000;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 45px;
+    transition: all 0.4s;
+  }
+  
+  .card .row input[type="submit"]:hover {
+    border: 5px solid rgb(255, 0, 0);
+    color: #ff0000;
+    transition: all 0.4s;
+  }
+ 
+
+
+
+body {
+  
+  align-items: center;
+  justify-content: center;
+}
+  
+    
+    .card {
+      padding: 20px;
+      justify-content: center;
+      align-items: center;
+      margin-left: 15%;
+    }
+    
+    .card h2 {
+      font-size: 34px;
+    }
+    
+    .card .row input[type="submit"] {
+      width: 100%;
+    }
+  
